@@ -1208,7 +1208,7 @@
       updateHeader();
     }
     function showScreen(screenId){
-      const screens = document.querySelectorAll('.screen');
+      const screens = document.querySelectorAll('.screen, .result-screen');
       screens.forEach(screen => {
         const active = screen.id === screenId;
         screen.classList.toggle('active', active);
